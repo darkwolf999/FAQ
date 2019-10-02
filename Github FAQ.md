@@ -6,7 +6,7 @@
 2. Открываем git bash.
 3. $ **cd source/repos/test**						<span style="color:green">//Переходим в каталог своего проекта</span>
 4. $ **git init**							<span style="color:green">//Инициализируем каталог с проектом как локальный репозиторий</span>
-5. $ **git remote add origin https://github.com/darkwolf999/test.git**	<span style="color:green">//Добавляем удаленный репозиторий для дальнейшей работы с ним
+5. $ **git remote add origin https://github.com/darkwolf999/test.git**	<span style="color:green">//Добавляем удаленный репозиторий для дальнейшей работы с ним  
    "origin" - присвоенное имя для удаленного репозитория, чтобы не вводить каждый раз ссылку на него. Имя может быть любым</span>
 6. $ **git add .**								<span style="color:green">//Добавляем в локальный репозиторий все файлы из каталога и вложенных папок (Индексируем их)</span>
 7. $ **git commit -m "First commit"**					<span style="color:green">//Фиксируем изменения на локальном репозитории</span>
