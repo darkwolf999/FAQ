@@ -1,14 +1,14 @@
 <H2> MySQL Shell </H2>
 
-**Џодключение к удаленной бд**  
+**РџРѕРґРєР»СЋС‡РµРЅРёРµ Рє СѓРґР°Р»РµРЅРЅРѕР№ Р±Рґ**  
 
 1. $ **\sql**  
 2. $ **\connect root@51.15.118.65**  
 
-**‚нутри самого сервера бд**  
+**Р’РЅСѓС‚СЂРё СЃР°РјРѕРіРѕ СЃРµСЂРІРµСЂР° Р±Рґ**  
 
 1. $ **CREATE USER 'non-root'@'localhost' IDENTIFIED BY '123';**  
-2. $ **GRANT ALL PRIVILEGES ON * . * TO 'non-root'@'ip';**   <span style="color:green">		//вместо ip можно написать сам ip, % - разрешить с любого ip, либо localhost</span>
+2. $ **GRANT ALL PRIVILEGES ON * . * TO 'non-root'@'ip';**   <span style="color:green">		//РІРјРµСЃС‚Рѕ ip РјРѕР¶РЅРѕ РЅР°РїРёСЃР°С‚СЊ СЃР°Рј ip, % - СЂР°Р·СЂРµС€РёС‚СЊ СЃ Р»СЋР±РѕРіРѕ ip, Р»РёР±Рѕ localhost</span>
 3. $ **FLUSH PRIVILEGES;**  
 
 $ **mysql -u root -p**  
