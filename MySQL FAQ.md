@@ -1,4 +1,4 @@
-## MySQL Shellgjhggjhg
+## MySQL Shell
 
 ### Подключение к удаленной бд
 
