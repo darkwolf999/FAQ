@@ -12,4 +12,5 @@
 3. $ **FLUSH PRIVILEGES;**  
 
 $ **mysql -u root -p**  
+
 $ **mysql SET PASSWORD FOR root@localhost=PASSWORD('new_password');**
