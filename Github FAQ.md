@@ -60,7 +60,8 @@ $ **git pull** 		<span style="color:green">//Обновить проект на 
 9. **Push**
 10. **Вводим логин и пароль от гитлаба (иногда просит 3 раза)**
 
-После этого начнется Uploading LFS objects
+После этого начнется Uploading LFS objects  
+Вот что делает git gui и не делает git bash  **git config lfs.https://gitlab.com/darkwolf9990/tbs-game.git/info/lfs.locksverify true**  
 
 1. **На другом ПК открываем Github desktop**
 2. **Жмем Clone a repository from the Internet**
