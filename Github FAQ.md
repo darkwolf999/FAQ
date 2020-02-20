@@ -46,3 +46,26 @@
 
 $ **git remote -v**		<span style="color:green">//Просмотреть удаленный репозиторий и ассоциированное с ним имя</span>  
 $ **git pull** 		<span style="color:green">//Обновить проект на локальном репозитории, если он был изменен на удаленном</span>
+
+## Unity
+
+1. **В папке с проектом должны лежать гит игнор и гит аттрибуты для юнити**
+2. **Открываем git gui**
+3. **Создаем новый репозиторий указывая папку со своим проектом**
+4. **Жмем Stage changed ---> Continue**
+5. **Remote ---> add.**
+6. **Вводим имя любое и урл нашего удаленного репозитория https://gitlab.com/darkwolf9990/tbs-game.git**
+7. **Галочку на Do nothing else now**
+8. **Commit**
+9. **Push**
+10. **Вводим логин и пароль от гитлаба (иногда просит 3 раза)**
+
+После этого начнется Uploading LFS objects
+
+1. **На другом ПК открываем Github desktop**
+2. **Жмем Clone a repository from the Internet**
+3. **Выбираем вкладку URL**
+4. **Вводим урл https://gitlab.com/darkwolf9990/tbs-game.git**
+5. **Меняем имя репозитория если надо**
+6. **Clone**
+7. **Жмем Initialize Git LFS**
